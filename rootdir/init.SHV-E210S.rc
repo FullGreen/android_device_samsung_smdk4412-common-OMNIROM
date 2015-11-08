@@ -1,7 +1,7 @@
 # Init for devices built on Samsung SMDK4412 platform
 
 import /init.target.rc
-import /init.smdk4x12.usb.rc
+import /init.SHV-E210S.usb.rc
 
 on early-init
     mount debugfs /sys/kernel/debug /sys/kernel/debug
@@ -39,7 +39,7 @@ on init
 
 on fs
     mkdir /preload
-    mount_all /fstab.smdk4x12
+    mount_all /fstab.SHV-E210S
 
     setprop ro.crypto.fuse_sdcard true
 

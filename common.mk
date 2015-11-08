@@ -27,11 +27,11 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Init files
 PRODUCT_COPY_FILES := \
-    $(COMMON_PATH)/rootdir/init.smdk4x12.rc:root/init.smdk4x12.rc \
-    $(COMMON_PATH)/rootdir/init.smdk4x12.usb.rc:root/init.smdk4x12.usb.rc \
+    $(COMMON_PATH)/rootdir/init.SHV-E210S.rc:root/init.SHV-E210S.rc \
+    $(COMMON_PATH)/rootdir/init.SHV-E210S.usb.rc:root/init.SHV-E210S.usb.rc \
     $(COMMON_PATH)/rootdir/init.trace.rc:root/init.trace.rc \
-    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
-    $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc \
+    $(COMMON_PATH)/rootdir/ueventd.SHV-E210S.rc:root/ueventd.SHV-E210S.rc \
+    $(COMMON_PATH)/rootdir/ueventd.SHV-E210S.rc:recovery/root/ueventd.SHV-E210S.rc \
     $(COMMON_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Audio
