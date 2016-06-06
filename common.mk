@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
     libstagefrighthw \
-    libSEC_OMX_Resourcemanager \
     libSEC_OMX_Core \
     libOMX.SEC.AVC.Decoder \
     libOMX.SEC.M4V.Decoder \
